@@ -47,4 +47,4 @@ app.get("/images", (req, res) => {
   res.json(uploadedImages);
 });
 
-app.listen(5000, () => console.log("Server running on http://localhost:5000"));
+app.listen(9000, () => console.log("Server running on http://localhost:9000"));
